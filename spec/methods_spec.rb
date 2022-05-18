@@ -1,14 +1,13 @@
 require_relative 'spec_helper'
 require_relative '../methods'
-
 describe '#greet_programmer' do
 
   it 'outputs the string "Hello, programmer!"' do
-    expect { greet_programmer }.to output(a_string_including("Hello, programmer!")).to_stdout
+   expect { greet_programmer }.to output(a_string_including("Hello, programmer!")).to_stdout
   end
   
 end
-
+ 
 describe '#greet' do
 
   it 'outputs a string "Hello, Naureen!" when called with "Naureen"' do
@@ -33,6 +32,8 @@ describe '#greet_with_default' do
 
 end
 
+
+
 describe '#add' do
 
   it 'returns the sum of two numbers' do
@@ -40,6 +41,8 @@ describe '#add' do
   end
 
 end
+
+
 
 describe '#halve' do
   
@@ -52,3 +55,4 @@ describe '#halve' do
   end
 
 end
+
